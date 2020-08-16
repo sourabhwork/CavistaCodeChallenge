@@ -3,10 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65773772243352DD475F0322 /* Pods_CavistaiosCodeChallenge_CavistaiosCodeChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C94F1FC6A055D101F10C6FF /* Pods_CavistaiosCodeChallenge_CavistaiosCodeChallengeUITests.framework */; };
+		6A1C66DE22DEF742A22C92A4 /* Pods_CavistaiosCodeChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8A7ABA12ABF82A2CA1E15A /* Pods_CavistaiosCodeChallenge.framework */; };
+		A80E371524E45E890079C438 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80E371424E45E890079C438 /* Enums.swift */; };
+		A80E371724E461110079C438 /* UIImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80E371624E461110079C438 /* UIImageHelper.swift */; };
+		A80E371924E4E0E50079C438 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80E371824E4E0E50079C438 /* DetailsViewController.swift */; };
+		A81E240024E8E8ED00B3A445 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E23FF24E8E8ED00B3A445 /* ProgressView.swift */; };
+		A81E240224E8FA8F00B3A445 /* ResponseDataRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E240124E8FA8F00B3A445 /* ResponseDataRealmModel.swift */; };
+		A81E240424E8FB3C00B3A445 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E240324E8FB3C00B3A445 /* RealmHelper.swift */; };
+		A81E240724E976C500B3A445 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E240624E976C500B3A445 /* StringHelper.swift */; };
+		A826C6C524E6373A003F759D /* UIViewControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826C6C424E6373A003F759D /* UIViewControllerHelper.swift */; };
 		A8434A4224E30C840002C4CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8434A4124E30C840002C4CD /* AppDelegate.swift */; };
 		A8434A4424E30C840002C4CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8434A4324E30C840002C4CD /* SceneDelegate.swift */; };
 		A8434A4624E30C840002C4CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8434A4524E30C840002C4CD /* ViewController.swift */; };
@@ -15,6 +25,14 @@
 		A8434A4E24E30C860002C4CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8434A4C24E30C860002C4CD /* LaunchScreen.storyboard */; };
 		A8434A5924E30C870002C4CD /* CavistaiosCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8434A5824E30C870002C4CD /* CavistaiosCodeChallengeTests.swift */; };
 		A8434A6424E30C870002C4CD /* CavistaiosCodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8434A6324E30C870002C4CD /* CavistaiosCodeChallengeUITests.swift */; };
+		A8434A7224E373A70002C4CD /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8434A7124E373A70002C4CD /* NetworkServices.swift */; };
+		A8434A7424E377F10002C4CD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8434A7324E377F10002C4CD /* Constants.swift */; };
+		A8434A7624E378EA0002C4CD /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8434A7524E378EA0002C4CD /* ListViewController.swift */; };
+		A8434A7824E379BF0002C4CD /* ResponseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8434A7724E379BF0002C4CD /* ResponseDataModel.swift */; };
+		A8434A7C24E37A580002C4CD /* NetworkServicesDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8434A7B24E37A580002C4CD /* NetworkServicesDelegate.swift */; };
+		A8434A7E24E3819F0002C4CD /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8434A7D24E3819F0002C4CD /* ListTableViewCell.swift */; };
+		A8434A8124E3854B0002C4CD /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8434A8024E3854B0002C4CD /* UIViewHelper.swift */; };
+		BDF43179E74F4B19D8CA5C98 /* Pods_CavistaiosCodeChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE568671F722468D6AD8EA4 /* Pods_CavistaiosCodeChallengeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +53,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CE568671F722468D6AD8EA4 /* Pods_CavistaiosCodeChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CavistaiosCodeChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8A7ABA12ABF82A2CA1E15A /* Pods_CavistaiosCodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CavistaiosCodeChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CF38961B912C3260FBDD3C /* Pods-CavistaiosCodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaiosCodeChallenge.release.xcconfig"; path = "Target Support Files/Pods-CavistaiosCodeChallenge/Pods-CavistaiosCodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		52AA84AF6672E2DE5C0494FE /* Pods-CavistaiosCodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaiosCodeChallenge.debug.xcconfig"; path = "Target Support Files/Pods-CavistaiosCodeChallenge/Pods-CavistaiosCodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		6C94F1FC6A055D101F10C6FF /* Pods_CavistaiosCodeChallenge_CavistaiosCodeChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CavistaiosCodeChallenge_CavistaiosCodeChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B987FD5F7C4EEF8FAEC4F2 /* Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests/Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A80E371424E45E890079C438 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		A80E371624E461110079C438 /* UIImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageHelper.swift; sourceTree = "<group>"; };
+		A80E371824E4E0E50079C438 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A81E23FF24E8E8ED00B3A445 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		A81E240124E8FA8F00B3A445 /* ResponseDataRealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseDataRealmModel.swift; sourceTree = "<group>"; };
+		A81E240324E8FB3C00B3A445 /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		A81E240624E976C500B3A445 /* StringHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
+		A826C6C424E6373A003F759D /* UIViewControllerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerHelper.swift; sourceTree = "<group>"; };
 		A8434A3E24E30C840002C4CD /* CavistaiosCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CavistaiosCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8434A4124E30C840002C4CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8434A4324E30C840002C4CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +81,16 @@
 		A8434A5F24E30C870002C4CD /* CavistaiosCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CavistaiosCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8434A6324E30C870002C4CD /* CavistaiosCodeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavistaiosCodeChallengeUITests.swift; sourceTree = "<group>"; };
 		A8434A6524E30C870002C4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8434A7124E373A70002C4CD /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
+		A8434A7324E377F10002C4CD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A8434A7524E378EA0002C4CD /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		A8434A7724E379BF0002C4CD /* ResponseDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseDataModel.swift; sourceTree = "<group>"; };
+		A8434A7B24E37A580002C4CD /* NetworkServicesDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServicesDelegate.swift; sourceTree = "<group>"; };
+		A8434A7D24E3819F0002C4CD /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		A8434A8024E3854B0002C4CD /* UIViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
+		D9FD75A84979A6C93517D04C /* Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests/Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8D060F87DB4640B4DF8456E /* Pods-CavistaiosCodeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaiosCodeChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-CavistaiosCodeChallengeTests/Pods-CavistaiosCodeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F275D9AD9C00ACC9054D5A30 /* Pods-CavistaiosCodeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CavistaiosCodeChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-CavistaiosCodeChallengeTests/Pods-CavistaiosCodeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A1C66DE22DEF742A22C92A4 /* Pods_CavistaiosCodeChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF43179E74F4B19D8CA5C98 /* Pods_CavistaiosCodeChallengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +114,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65773772243352DD475F0322 /* Pods_CavistaiosCodeChallenge_CavistaiosCodeChallengeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A81E23FD24E8E8B200B3A445 /* ViewCotrollers */ = {
+			isa = PBXGroup;
+			children = (
+				A8434A4524E30C840002C4CD /* ViewController.swift */,
+				A8434A7524E378EA0002C4CD /* ListViewController.swift */,
+				A80E371824E4E0E50079C438 /* DetailsViewController.swift */,
+			);
+			path = ViewCotrollers;
+			sourceTree = "<group>";
+		};
+		A81E23FE24E8E8CC00B3A445 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8434A7D24E3819F0002C4CD /* ListTableViewCell.swift */,
+				A81E23FF24E8E8ED00B3A445 /* ProgressView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A81E240524E9335300B3A445 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A81E240124E8FA8F00B3A445 /* ResponseDataRealmModel.swift */,
+				A8434A7724E379BF0002C4CD /* ResponseDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A8434A3524E30C840002C4CD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +156,8 @@
 				A8434A5724E30C870002C4CD /* CavistaiosCodeChallengeTests */,
 				A8434A6224E30C870002C4CD /* CavistaiosCodeChallengeUITests */,
 				A8434A3F24E30C840002C4CD /* Products */,
+				BA60DE0410B2A47A0AD9705D /* Pods */,
+				B597181440AC356058BFD0FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +174,16 @@
 		A8434A4024E30C840002C4CD /* CavistaiosCodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				A8434A4124E30C840002C4CD /* AppDelegate.swift */,
 				A8434A4324E30C840002C4CD /* SceneDelegate.swift */,
-				A8434A4524E30C840002C4CD /* ViewController.swift */,
+				A8434A4124E30C840002C4CD /* AppDelegate.swift */,
+				A81E240524E9335300B3A445 /* Models */,
+				A8434A7F24E385330002C4CD /* Helper */,
+				A81E23FE24E8E8CC00B3A445 /* Views */,
+				A81E23FD24E8E8B200B3A445 /* ViewCotrollers */,
+				A8434A7124E373A70002C4CD /* NetworkServices.swift */,
+				A8434A7B24E37A580002C4CD /* NetworkServicesDelegate.swift */,
+				A8434A7324E377F10002C4CD /* Constants.swift */,
+				A80E371424E45E890079C438 /* Enums.swift */,
 				A8434A4724E30C840002C4CD /* Main.storyboard */,
 				A8434A4A24E30C860002C4CD /* Assets.xcassets */,
 				A8434A4C24E30C860002C4CD /* LaunchScreen.storyboard */,
@@ -128,6 +210,41 @@
 			path = CavistaiosCodeChallengeUITests;
 			sourceTree = "<group>";
 		};
+		A8434A7F24E385330002C4CD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A8434A8024E3854B0002C4CD /* UIViewHelper.swift */,
+				A80E371624E461110079C438 /* UIImageHelper.swift */,
+				A826C6C424E6373A003F759D /* UIViewControllerHelper.swift */,
+				A81E240624E976C500B3A445 /* StringHelper.swift */,
+				A81E240324E8FB3C00B3A445 /* RealmHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B597181440AC356058BFD0FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A8A7ABA12ABF82A2CA1E15A /* Pods_CavistaiosCodeChallenge.framework */,
+				6C94F1FC6A055D101F10C6FF /* Pods_CavistaiosCodeChallenge_CavistaiosCodeChallengeUITests.framework */,
+				0CE568671F722468D6AD8EA4 /* Pods_CavistaiosCodeChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA60DE0410B2A47A0AD9705D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52AA84AF6672E2DE5C0494FE /* Pods-CavistaiosCodeChallenge.debug.xcconfig */,
+				35CF38961B912C3260FBDD3C /* Pods-CavistaiosCodeChallenge.release.xcconfig */,
+				D9FD75A84979A6C93517D04C /* Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests.debug.xcconfig */,
+				79B987FD5F7C4EEF8FAEC4F2 /* Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests.release.xcconfig */,
+				F275D9AD9C00ACC9054D5A30 /* Pods-CavistaiosCodeChallengeTests.debug.xcconfig */,
+				E8D060F87DB4640B4DF8456E /* Pods-CavistaiosCodeChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8434A6824E30C870002C4CD /* Build configuration list for PBXNativeTarget "CavistaiosCodeChallenge" */;
 			buildPhases = (
+				8B972260874E7305EB4AA0E0 /* [CP] Check Pods Manifest.lock */,
 				A8434A3A24E30C840002C4CD /* Sources */,
 				A8434A3B24E30C840002C4CD /* Frameworks */,
 				A8434A3C24E30C840002C4CD /* Resources */,
+				F03294035A522FFBE338775D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8434A6B24E30C870002C4CD /* Build configuration list for PBXNativeTarget "CavistaiosCodeChallengeTests" */;
 			buildPhases = (
+				B6D09258662AD107AB3920D1 /* [CP] Check Pods Manifest.lock */,
 				A8434A5024E30C870002C4CD /* Sources */,
 				A8434A5124E30C870002C4CD /* Frameworks */,
 				A8434A5224E30C870002C4CD /* Resources */,
@@ -170,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8434A6E24E30C870002C4CD /* Build configuration list for PBXNativeTarget "CavistaiosCodeChallengeUITests" */;
 			buildPhases = (
+				0BF8505A48BC0406B563C643 /* [CP] Check Pods Manifest.lock */,
 				A8434A5B24E30C870002C4CD /* Sources */,
 				A8434A5C24E30C870002C4CD /* Frameworks */,
 				A8434A5D24E30C870002C4CD /* Resources */,
+				F2E27CA8D3D56E435CFD80F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,14 +376,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BF8505A48BC0406B563C643 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B972260874E7305EB4AA0E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CavistaiosCodeChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D09258662AD107AB3920D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CavistaiosCodeChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F03294035A522FFBE338775D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CavistaiosCodeChallenge/Pods-CavistaiosCodeChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CavistaiosCodeChallenge/Pods-CavistaiosCodeChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CavistaiosCodeChallenge/Pods-CavistaiosCodeChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2E27CA8D3D56E435CFD80F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests/Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests/Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests/Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8434A3A24E30C840002C4CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8434A8124E3854B0002C4CD /* UIViewHelper.swift in Sources */,
+				A8434A7424E377F10002C4CD /* Constants.swift in Sources */,
+				A81E240224E8FA8F00B3A445 /* ResponseDataRealmModel.swift in Sources */,
+				A81E240024E8E8ED00B3A445 /* ProgressView.swift in Sources */,
+				A8434A7C24E37A580002C4CD /* NetworkServicesDelegate.swift in Sources */,
+				A80E371724E461110079C438 /* UIImageHelper.swift in Sources */,
 				A8434A4624E30C840002C4CD /* ViewController.swift in Sources */,
+				A8434A7624E378EA0002C4CD /* ListViewController.swift in Sources */,
+				A826C6C524E6373A003F759D /* UIViewControllerHelper.swift in Sources */,
+				A8434A7824E379BF0002C4CD /* ResponseDataModel.swift in Sources */,
+				A8434A7E24E3819F0002C4CD /* ListTableViewCell.swift in Sources */,
 				A8434A4224E30C840002C4CD /* AppDelegate.swift in Sources */,
+				A81E240724E976C500B3A445 /* StringHelper.swift in Sources */,
+				A8434A7224E373A70002C4CD /* NetworkServices.swift in Sources */,
 				A8434A4424E30C840002C4CD /* SceneDelegate.swift in Sources */,
+				A80E371924E4E0E50079C438 /* DetailsViewController.swift in Sources */,
+				A80E371524E45E890079C438 /* Enums.swift in Sources */,
+				A81E240424E8FB3C00B3A445 /* RealmHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +672,7 @@
 		};
 		A8434A6924E30C870002C4CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52AA84AF6672E2DE5C0494FE /* Pods-CavistaiosCodeChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +690,7 @@
 		};
 		A8434A6A24E30C870002C4CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35CF38961B912C3260FBDD3C /* Pods-CavistaiosCodeChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +708,7 @@
 		};
 		A8434A6C24E30C870002C4CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F275D9AD9C00ACC9054D5A30 /* Pods-CavistaiosCodeChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +730,7 @@
 		};
 		A8434A6D24E30C870002C4CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D060F87DB4640B4DF8456E /* Pods-CavistaiosCodeChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +752,7 @@
 		};
 		A8434A6F24E30C870002C4CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9FD75A84979A6C93517D04C /* Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +772,7 @@
 		};
 		A8434A7024E30C870002C4CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B987FD5F7C4EEF8FAEC4F2 /* Pods-CavistaiosCodeChallenge-CavistaiosCodeChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
